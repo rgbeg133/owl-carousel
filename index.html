@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Owl Carousel Demo</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>SWEET TOOTH</h1>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+<div class="container">
+    <!-- JavaScript -->
+  <div id="owl-carousel">
+    <img src="img/sweetooth.1_tb.jpg">
+    <img src="img/sweetooth.2_tb.jpg">
+    <img src="img/sweetooth.3_tb.jpg">
+    <img src="img/sweetooth.4_tb.jpg">
+    <img src="img/sweetooth.5_tb.jpg">
+    <img src="img/sweetooth.6_tb.jpg">
+    <img src="img/sweetooth.7_tb.jpg">
+    <img src="img/sweetooth.8_tb.jpg">
+    </div>
+</div>
+
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+    <script>
+
+      $('#owl-carousel').owlCarousel({
+          autoplay : false,
+          autoplayHoverPause : true,
+          autoplayTimeout : 1000,
+          dots : true,
+          items : 1,
+          loop : true,
+          margin : 10,
+          nav : false,
+      })
+    </script>
+    </body>
+</html>

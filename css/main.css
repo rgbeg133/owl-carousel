@@ -1,0 +1,14 @@
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ff8080;
+}
+
+h1 {
+  color: #b3ffe0;
+  font-family: 'Pacifico', cursive;
+}
+
+.item {
+
+}
